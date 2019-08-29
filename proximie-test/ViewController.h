@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GLKit;
+@import AVFoundation;
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *originalView;
+@property (weak, nonatomic) IBOutlet UIView *filteredView;
 
 @end
+
+NS_ASSUME_NONNULL_END
 

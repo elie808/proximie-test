@@ -49,6 +49,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapStart:" destination="BYZ-38-t0r" eventType="touchDown" id="H3D-Pc-ABC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzi-ig-cj7">
                                         <rect key="frame" x="0.0" y="49.5" width="398" height="41"/>
@@ -61,6 +64,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapStop:" destination="BYZ-38-t0r" eventType="touchDown" id="Y6m-OW-Gty"/>
+                                        </connections>
                                     </button>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JZf-9t-4ZI">
                                         <rect key="frame" x="0.0" y="98.5" width="398" height="42.5"/>
@@ -69,6 +75,9 @@
                                             <segment title="Filter"/>
                                         </segments>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="didChangeSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="pka-i3-EBU"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                                 <constraints>
