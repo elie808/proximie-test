@@ -14,6 +14,8 @@
 		474390F2231895E100CE836E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474390F0231895E100CE836E /* LaunchScreen.storyboard */; };
 		474390F5231895E100CE836E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474390F4231895E100CE836E /* main.m */; };
 		474390FF231895E100CE836E /* proximie_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474390FE231895E100CE836E /* proximie_testTests.m */; };
+		8FF872AA6BE0FABE02EE8898 /* libPods-proximie-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF1493EFC44944A059B116D /* libPods-proximie-testTests.a */; };
+		C2BC1950504802E468E4529F /* libPods-proximie-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA358CAC74AA7D303FA8D5E7 /* libPods-proximie-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002A0AFAE78F923FD11205E1 /* Pods-proximie-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-testTests/Pods-proximie-testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		474390E2231895E000CE836E /* proximie-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "proximie-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474390E5231895E000CE836E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		474390E6231895E000CE836E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +43,11 @@
 		474390FA231895E100CE836E /* proximie-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "proximie-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474390FE231895E100CE836E /* proximie_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proximie_testTests.m; sourceTree = "<group>"; };
 		47439100231895E100CE836E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF1493EFC44944A059B116D /* libPods-proximie-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximie-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D3BCA1D425165CAADB4B26 /* Pods-proximie-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-test/Pods-proximie-test.release.xcconfig"; sourceTree = "<group>"; };
+		B738C0EF120DA971356D8AC1 /* Pods-proximie-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-test/Pods-proximie-test.debug.xcconfig"; sourceTree = "<group>"; };
+		B99599490E81AAF2988A575E /* Pods-proximie-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-testTests/Pods-proximie-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA358CAC74AA7D303FA8D5E7 /* libPods-proximie-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximie-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BC1950504802E468E4529F /* libPods-proximie-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF872AA6BE0FABE02EE8898 /* libPods-proximie-testTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				474390E4231895E000CE836E /* proximie-test */,
 				474390FD231895E100CE836E /* proximie-testTests */,
 				474390E3231895E000CE836E /* Products */,
+				6DD13E4C0F14715BC61560CE /* Pods */,
+				DDE92B362136023BB3F29E77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +115,26 @@
 			path = "proximie-testTests";
 			sourceTree = "<group>";
 		};
+		6DD13E4C0F14715BC61560CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B738C0EF120DA971356D8AC1 /* Pods-proximie-test.debug.xcconfig */,
+				A4D3BCA1D425165CAADB4B26 /* Pods-proximie-test.release.xcconfig */,
+				002A0AFAE78F923FD11205E1 /* Pods-proximie-testTests.debug.xcconfig */,
+				B99599490E81AAF2988A575E /* Pods-proximie-testTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDE92B362136023BB3F29E77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA358CAC74AA7D303FA8D5E7 /* libPods-proximie-test.a */,
+				5CF1493EFC44944A059B116D /* libPods-proximie-testTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47439103231895E100CE836E /* Build configuration list for PBXNativeTarget "proximie-test" */;
 			buildPhases = (
+				0BC4CB420D7BEC7DEB301CA0 /* [CP] Check Pods Manifest.lock */,
 				474390DE231895E000CE836E /* Sources */,
 				474390DF231895E000CE836E /* Frameworks */,
 				474390E0231895E000CE836E /* Resources */,
@@ -127,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47439106231895E100CE836E /* Build configuration list for PBXNativeTarget "proximie-testTests" */;
 			buildPhases = (
+				FF9CD99EDA06BD21AAD1955D /* [CP] Check Pods Manifest.lock */,
 				474390F6231895E100CE836E /* Sources */,
 				474390F7231895E100CE836E /* Frameworks */,
 				474390F8231895E100CE836E /* Resources */,
@@ -197,6 +231,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC4CB420D7BEC7DEB301CA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proximie-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9CD99EDA06BD21AAD1955D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-proximie-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		474390DE231895E000CE836E /* Sources */ = {
@@ -361,11 +434,13 @@
 		};
 		47439104231895E100CE836E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B738C0EF120DA971356D8AC1 /* Pods-proximie-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6WQVEM27Z;
 				INFOPLIST_FILE = "proximie-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +453,13 @@
 		};
 		47439105231895E100CE836E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D3BCA1D425165CAADB4B26 /* Pods-proximie-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6WQVEM27Z;
 				INFOPLIST_FILE = "proximie-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,6 +472,7 @@
 		};
 		47439107231895E100CE836E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002A0AFAE78F923FD11205E1 /* Pods-proximie-testTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +492,7 @@
 		};
 		47439108231895E100CE836E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99599490E81AAF2988A575E /* Pods-proximie-testTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
