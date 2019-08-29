@@ -43,6 +43,7 @@
 		474390FA231895E100CE836E /* proximie-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "proximie-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474390FE231895E100CE836E /* proximie_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proximie_testTests.m; sourceTree = "<group>"; };
 		47439100231895E100CE836E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4743910B231897C700CE836E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5CF1493EFC44944A059B116D /* libPods-proximie-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximie-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D3BCA1D425165CAADB4B26 /* Pods-proximie-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-test/Pods-proximie-test.release.xcconfig"; sourceTree = "<group>"; };
 		B738C0EF120DA971356D8AC1 /* Pods-proximie-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximie-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-proximie-test/Pods-proximie-test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,11 +98,9 @@
 				474390E6231895E000CE836E /* AppDelegate.m */,
 				474390E8231895E000CE836E /* ViewController.h */,
 				474390E9231895E000CE836E /* ViewController.m */,
-				474390EB231895E000CE836E /* Main.storyboard */,
 				474390EE231895E100CE836E /* Assets.xcassets */,
-				474390F0231895E100CE836E /* LaunchScreen.storyboard */,
-				474390F3231895E100CE836E /* Info.plist */,
-				474390F4231895E100CE836E /* main.m */,
+				474391092318974300CE836E /* Storyboards */,
+				4743910A2318977300CE836E /* Support */,
 			);
 			path = "proximie-test";
 			sourceTree = "<group>";
@@ -113,6 +112,25 @@
 				47439100231895E100CE836E /* Info.plist */,
 			);
 			path = "proximie-testTests";
+			sourceTree = "<group>";
+		};
+		474391092318974300CE836E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				474390F0231895E100CE836E /* LaunchScreen.storyboard */,
+				474390EB231895E000CE836E /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		4743910A2318977300CE836E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4743910B231897C700CE836E /* PrefixHeader.pch */,
+				474390F3231895E100CE836E /* Info.plist */,
+				474390F4231895E100CE836E /* main.m */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 		6DD13E4C0F14715BC61560CE /* Pods */ = {
